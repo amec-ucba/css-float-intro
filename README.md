@@ -1,17 +1,23 @@
-# 💻 Assignment Boilerplate
+# 💻 Introduction to CSS Float
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration, and a pull request template so every assignment works the same way.
+Starter files for the CSS float coding exercise in Web Design 1. You will use the CSS `float`
+property to wrap text around images and figures, group an image with its caption using `figure`,
+and use `clear` to control where content starts — then publish the page with GitHub Pages.
+
+This repo also includes the editor and Git configuration and the pull request template that every
+assignment in this course uses.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` folder are
-> setup files that keep assignments consistent. Leave them alone.
+> setup files that keep assignments consistent. Leave them alone. `index.html`, `styles.css`,
+> `reset.css`, `ivan-cookie.jpg`, and `nap.jpg` are your starter content — keep them in the repo.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](ASSIGNMENT.md)**
 
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
+It has the overview, a guide to the companion videos in Canvas, a final checklist, and the grading rubric. Read it before you start, and check it again before you submit. This `README` only covers how to publish and submit your work.
 
 ## 🏁 Getting Started
 
@@ -21,7 +27,7 @@ It has the requirements, grading criteria, and due date. Read it before you star
 
      <img src=".github/images/use-this-template.png" alt="The Use this template button at the top right of the repo page" width="600">
    - Set **Owner** to your GitHub account.
-   - Give it a **Repository name** — use the assignment name, like `assignment-1`.
+   - Give it a **Repository name** — use the assignment name, like `css-float-intro`.
 
      <img src=".github/images/create-repo-name.png" alt="The Create a new repository form with Owner set to your username and the Repository name filled in" width="600">
    - Set visibility to **Public** (GitHub Pages needs a public repo on a free account).
@@ -43,15 +49,19 @@ It has the requirements, grading criteria, and due date. Read it before you star
 
 ## 📂 Where Your Files Go
 
-Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into subfolders:
+Work on the starter files in the **root folder** of this repo — the same folder as this README.
+GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Your files should look like this:
 
 ```
 index.html
-css/style.css
-js/script.js
-images/photo.jpg
+reset.css
+styles.css
+ivan-cookie.jpg
+nap.jpg
 ```
+
+For this exercise, keep everything in the root folder — `index.html` already links the stylesheets
+and images by their file names, so don't move or rename them.
 
 ## 🤖 AI Policy
 
