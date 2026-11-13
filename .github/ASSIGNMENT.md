@@ -54,12 +54,12 @@ Each video builds on the previous one, so please don't skip ahead.
 >
 > - **Getting the starter files:** create your own repo from this template and open it
 >   with GitHub Desktop, as described in the
->   [README](README.md#-getting-started). Don't download a ZIP.
+>   [Getting Started guide](GETTING_STARTED.md). Don't download a ZIP.
 > - **Branch:** do your work on a `develop` branch, not `main`. When you commit, the
 >   button will say **Commit to develop**, not **Commit to main**.
 > - **Submitting:** publish your page to GitHub Pages, open a pull request into `main`,
 >   and submit the **pull request URL** in Canvas — not your repository URL — as
->   described in the [README](README.md#-submitting-the-assignment).
+>   described in the [Submitting guide](SUBMITTING.md).
 
 > [!IMPORTANT]
 > Open the entire project **folder** in VS Code, not a single HTML file. Your HTML needs
@@ -138,4 +138,4 @@ If something is not working, check these common issues first:
 
 ---
 
-The AI policy and submission instructions are in the [README](README.md).
+The AI policy and submission instructions are in the [README](../README.md).
