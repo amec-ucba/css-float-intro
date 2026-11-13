@@ -52,11 +52,11 @@ Each video builds on the previous one, so please don't skip ahead.
 > **A few steps in this repo are different from Canvas and the videos.** Follow the videos
 > for the HTML and CSS, and follow this repo for getting your files and submitting:
 >
-> - **Getting the starter files:** create your own repo from this template and open it
->   with GitHub Desktop, as described in the
+> - **Getting the starter files:** create your own repo from this template and clone it
+>   in WebStorm, as described in the
 >   [Getting Started guide](GETTING_STARTED.md). Don't download a ZIP.
-> - **Branch:** do your work on a `develop` branch, not `main`. When you commit, the
->   button will say **Commit to develop**, not **Commit to main**.
+> - **Branch:** do your work on a `develop` branch, not `main`. Before you commit, the
+>   branch name at the top left of WebStorm should say `develop`, not `main`.
 > - **Submitting:** publish your page to GitHub Pages, open a pull request into `main`,
 >   and submit the **pull request URL** in Canvas — not your repository URL — as
 >   described in the [Submitting guide](SUBMITTING.md).
@@ -116,7 +116,7 @@ If something is not working, check these common issues first:
 - Does the class name in your HTML match the class selector in your CSS, including the `.`?
 - Did you add margin so the text has space around the floated figure?
 - Did you add `clear: both;` to the section that should start below the floats?
-- Did you commit **and** push your changes in GitHub Desktop?
+- Did you commit **and** push your changes in WebStorm?
 
 **Having problems with the videos?**
 
